@@ -40,7 +40,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="o3H-HI-aWx">
             <objects>
-                <tabBarController id="exu-Kf-gyU" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainVC" id="exu-Kf-gyU" customClass="TabBarController" customModule="Canciones" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OeW-2V-2eS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
