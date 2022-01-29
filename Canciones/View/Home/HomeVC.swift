@@ -9,6 +9,8 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    @IBOutlet weak var albumArtView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

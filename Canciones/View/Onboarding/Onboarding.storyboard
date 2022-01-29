@@ -121,7 +121,7 @@
                         <outlet property="collectionView" destination="MbA-VB-bjZ" id="P5D-p1-3Nz"/>
                         <outlet property="nextBtn" destination="p8G-GV-UeM" id="ScX-Jf-xoO"/>
                         <outlet property="pageControl" destination="12u-hc-Te7" id="9qL-Ye-1hl"/>
-                        <segue destination="a2s-Uz-8uB" kind="show" identifier="GotoMain" id="8r2-Ls-kRc"/>
+                        <segue destination="a2s-Uz-8uB" kind="presentation" identifier="GotoMain" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="8r2-Ls-kRc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
