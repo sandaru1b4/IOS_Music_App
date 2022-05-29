@@ -1,13 +1,13 @@
 //
-//  FirstVC.swift
+//  SearchVC.swift
 //  Canciones
 //
-//  Created by Achitha Sandaruwan on 1/14/22.
+//  Created by Achitha Sandaruwan on 1/16/22.
 //
 
 import UIKit
 
-class FirstVC: UIViewController {
+class SearchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

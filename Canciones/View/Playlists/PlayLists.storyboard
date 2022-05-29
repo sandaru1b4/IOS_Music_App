@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Play Lists-->
+        <scene sceneID="SiU-rO-SGd">
+            <objects>
+                <viewController storyboardIdentifier="PlayListVC" id="iY5-a7-Dro" customClass="PlayListVC" customModule="Canciones" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ti2-EI-c3C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Lists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l5-DT-5kO">
+                                <rect key="frame" x="145" y="438" width="124" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.053601868449999999" green="0.68258732560000002" blue="0.91376286750000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="puC-o1-zfe"/>
+                        <color key="backgroundColor" name="textColor"/>
+                        <constraints>
+                            <constraint firstItem="3l5-DT-5kO" firstAttribute="width" secondItem="ti2-EI-c3C" secondAttribute="width" multiplier="0.299517" id="FEb-cf-1wc"/>
+                            <constraint firstItem="3l5-DT-5kO" firstAttribute="centerX" secondItem="ti2-EI-c3C" secondAttribute="centerX" id="bbx-Ki-5aj"/>
+                            <constraint firstItem="3l5-DT-5kO" firstAttribute="centerY" secondItem="ti2-EI-c3C" secondAttribute="centerY" id="lPe-SB-bdE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Play Lists" image="music.note.list" catalog="system" id="yng-iD-uwM"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VLC-rl-rul" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753.62318840579712" y="58.928571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music.note.list" catalog="system" width="128" height="115"/>
+        <namedColor name="textColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
