@@ -9,23 +9,35 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    
+    //MARK: - OUTLETS
     @IBOutlet weak var albumArtView: UIImageView!
+    @IBOutlet weak var playBtn: UIButton!
+    
+    //MARK: - VARIABLES
+    var isPlay = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func playBtnAction(_ sender: Any) {
+        
+        isPlay = !isPlay
+        
+        if isPlay {
+        if let image = UIImage(systemName: "pause.circle.fill") {
+            playBtn.setImage(image, for: .normal)
+        }
+        } else {
+            if let image = UIImage(systemName: "play.circle.fill") {
+                playBtn.setImage(image, for: .normal)
+            }
+        }
+        
     }
-    */
-
+    
+    
 }
